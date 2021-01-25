@@ -1,13 +1,13 @@
-package org.abc.associationMapping;
+package org.abc.actuator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringMongoAssociationMappingApplication {
+public class SpringBootActuatorFeaturesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringMongoAssociationMappingApplication.class, args);
+		SpringApplication.run(SpringBootActuatorFeaturesApplication.class, args);
 	}
 
 }
